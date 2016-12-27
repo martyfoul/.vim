@@ -14,6 +14,12 @@
 inoremap jk <ESC>
 inoremap <ESC> <nop>
 
+" switch semi-colon and colon
+nnoremap ; :
+vnoremap ; :
+nnoremap : ;
+vnoremap : ;
+
 " line numbers
 set number
 
